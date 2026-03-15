@@ -15,5 +15,12 @@ class Program
         {
             Console.WriteLine($"{kel}: {kp.getKodePos(kel)}");
         }
+
+        Console.WriteLine("\n=== Simulasi DoorMachine ===");
+        DoorMachine door = new DoorMachine(); 
+        door.Buka();   
+        door.Kunci();  
+        door.Buka();   
+        door.Buka();  
     }
 }
